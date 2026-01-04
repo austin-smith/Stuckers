@@ -1,0 +1,47 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "grin.sticker"
+    },
+    {
+      "filename" : "popcorn-1.sticker"
+    },
+    {
+      "filename" : "milk-1.sticker"
+    },
+    {
+      "filename" : "brows.sticker"
+    },
+    {
+      "filename" : "scream.sticker"
+    },
+    {
+      "filename" : "blinky.sticker"
+    },
+    {
+      "filename" : "spiral-1.sticker"
+    },
+    {
+      "filename" : "hair-1.sticker"
+    },
+    {
+      "filename" : "wink-1.sticker"
+    },
+    {
+      "filename" : "test_tube.sticker"
+    },
+    {
+      "filename" : "wine-1.sticker"
+    },
+    {
+      "filename" : "robot.sticker"
+    }
+  ]
+}
