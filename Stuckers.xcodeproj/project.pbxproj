@@ -35,7 +35,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4B798108293D31F70065B752 /* StickerPackExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = StickerPackExtension.entitlements; path = StickerPackExtension/StickerPackExtension.entitlements; sourceTree = "<group>"; };
 		4BA9DCE91DCECC5B00E79ECD /* Stuckers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stuckers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA9DCED1DCECC5B00E79ECD /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA9DCF11DCECC5B00E79ECD /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
@@ -45,7 +44,6 @@
 		4BA9DCE21DCECC5B00E79ECD = {
 			isa = PBXGroup;
 			children = (
-				4B798108293D31F70065B752 /* StickerPackExtension.entitlements */,
 				4BA9DCF11DCECC5B00E79ECD /* Stickers.xcstickers */,
 				4BA9DCEA1DCECC5B00E79ECD /* Products */,
 			);
@@ -190,7 +188,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = T778QMSML9;
@@ -211,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -252,7 +249,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = T778QMSML9;
@@ -267,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -280,11 +276,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_ENTITLEMENTS = StickerPackExtension/StickerPackExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				INFOPLIST_KEY_CFBundleDisplayName = Stuckers;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = austin.Stuckers.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,11 +297,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_ENTITLEMENTS = StickerPackExtension/StickerPackExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				INFOPLIST_KEY_CFBundleDisplayName = Stuckers;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = austin.Stuckers.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,9 +318,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = Stuckers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = austin.Stuckers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,9 +334,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = Stuckers/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = austin.Stuckers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
